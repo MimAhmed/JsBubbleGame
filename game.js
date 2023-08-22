@@ -3,7 +3,7 @@ let score = 0;
 let hitrn = 0;
 
 function randomNumGenerator(){
-     hitrn = Math.floor(Math.random()*20);
+     hitrn = Math.floor(Math.random()*10); // This will generate random number between 0 to 9
      return hitrn;
 }
 
